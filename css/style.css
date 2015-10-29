@@ -109,7 +109,16 @@ ul, ol {
 .pre-t ul {
   margin-left: 25%;
 }
+.pre-t-inner ul {
+  margin-left: 25%;
+}
 .pre-t ul li {
+  font-family: 'SegoeUI-Regular';
+  font-size: 14px;
+  color: #F7F8FD;
+  text-align: left;
+}
+.pre-t-inner ul li {
   font-family: 'SegoeUI-Regular';
   font-size: 14px;
   color: #F7F8FD;
@@ -1021,6 +1030,13 @@ background: #fff;
   left: 50%;
   margin-left: -269px;
 }
+
+.menu-slider-inner {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -269px;
+}
 .logo {
   position: fixed;
   top: 26px;
@@ -1031,12 +1047,32 @@ background: #fff;
   width: 215px;
 }
 .menu-slider ul { list-style: none;}
+.menu-slider-inner ul { list-style: none;}
 .menu-slider ul li {
   position: relative;
   float: left;
   margin-right: 40px;
 }
+.menu-slider-inner ul li {
+  position: relative;
+  float: left;
+  margin-right: 40px;
+}
 .menu-slider ul li a,
+ .menulink a {
+   font-family: 'SegoeUI-Light';
+   font-size: 18px;
+   color: #F7F8FD;
+   line-height: 20px;
+   text-decoration: none;
+   border-bottom: 1px solid;
+   border-color: rgba(255,255,255,0.3);
+   border-top-color: rgba(255, 255, 255, 0.298039);
+   border-right-color: rgba(255, 255, 255, 0.298039);
+   border-bottom-color: rgba(255, 255, 255, 0.298039);
+   border-left-color: rgba(255, 255, 255, 0.298039);
+ }
+.menu-slider-inner ul li a,
 .menulink a {
   font-family: 'SegoeUI-Light';
   font-size: 18px;
@@ -1045,10 +1081,10 @@ background: #fff;
   text-decoration: none;
   border-bottom: 1px solid;
   border-color: rgba(255,255,255,0.3);
-    border-top-color: rgba(255, 255, 255, 0.298039);
-    border-right-color: rgba(255, 255, 255, 0.298039);
-    border-bottom-color: rgba(255, 255, 255, 0.298039);
-    border-left-color: rgba(255, 255, 255, 0.298039);
+  border-top-color: rgba(255, 255, 255, 0.298039);
+  border-right-color: rgba(255, 255, 255, 0.298039);
+  border-bottom-color: rgba(255, 255, 255, 0.298039);
+  border-left-color: rgba(255, 255, 255, 0.298039);
 }
 .menulink a {
   font-family: 'SegoeUI-Light';
@@ -1062,6 +1098,9 @@ background: #fff;
   width: 150px;
 }
 .menu-slider ul li.item-02 a {
+  z-index: 90;
+}
+.menu-slider-inner ul li.item-02 a {
   z-index: 90;
 }
 .intro {
@@ -1084,10 +1123,32 @@ background: #fff;
   background: rgba(0, 0, 0, 0.7);
   width: 100%;
 }
+.pre-t-inner {
+  position: absolute;
+  left: 0;
+  top: 410px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
 .pre-t > div {
+   padding: 0 45px;
+ }
+.pre-t-inner > div {
   padding: 0 45px;
 }
 .pre-t p {
+  font-family: 'SegoeUI-Regular';
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 20px;
+  text-align: left;
+  width: 57%;
+  margin: 5px 0;
+  margin-left: 23%;
+  margin-right: 20%;
+  padding-bottom: 5px;
+}
+.pre-t-inner p {
   font-family: 'SegoeUI-Regular';
   font-size: 14px;
   color: #ffffff;
@@ -1237,7 +1298,108 @@ div.left-menu ul li a:hover {
 .form-req ul li button:hover {
   background: #838687;
 }
+.form-faq {
+  margin-left: calc(23% + 30px);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.form-faq li{
+  list-style-type: none;
+}
+
+.form-faq ul li input {
+  height: 20px;
+  width: 300px;
+  line-height: 20px;
+  font-family: 'SegoeUI-Light';
+  font-size: 16px;
+  color: #fff;
+  margin-right: 10px;
+  background: transparent;
+  border: 1px solid;
+  border-color: rgba(255,255,255,0.3);
+  border-top-color: rgba(255, 255, 255, 0.298039);
+  border-right-color: rgba(255, 255, 255, 0.298039);
+  border-bottom-color: rgba(255, 255, 255, 0.298039);
+  border-left-color: rgba(255, 255, 255, 0.298039);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-indent: 10px;
+}
+
+.form-faq ul li textarea {
+  height: 80px;
+  width: 300px;
+  line-height: 20px;
+  font-family: 'SegoeUI-Light';
+  font-size: 16px;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 3px;
+  background: transparent;
+  border: 1px solid;
+  border-color: rgba(255,255,255,0.3);
+  border-top-color: rgba(255, 255, 255, 0.298039);
+  border-right-color: rgba(255, 255, 255, 0.298039);
+  border-bottom-color: rgba(255, 255, 255, 0.298039);
+  border-left-color: rgba(255, 255, 255, 0.298039);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-indent: 10px;
+}
+
+.form-faq ul li input::-webkit-input-placeholder {
+  color: #fff;
+}
+.form-faq ul li input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.form-faq ul li input::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;
+}
+.form-faq ul li input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-faq ul li textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+.form-faq ul li textarea:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.form-faq ul li textarea::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;
+}
+.form-faq ul li textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-faq ul li button {
+  width: 120px;
+  height: 22px;
+  line-height: 20px;
+  border: 1px solid;
+  border-color: rgba(255,255,255,0.3);
+  border-top-color: rgba(255, 255, 255, 0.298039);
+  border-right-color: rgba(255, 255, 255, 0.298039);
+  border-bottom-color: rgba(255, 255, 255, 0.298039);
+  border-left-color: rgba(255, 255, 255, 0.298039);
+  font-family: 'SegoeUI-Light';
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  background: transparent;
+  cursor: pointer;
+}
+
+
 .pre-t.pre-t-pge3 {
+  bottom: 52px;
+}
+.pre-t-inner.pre-t-pge3 {
   bottom: 52px;
 }
 .form-back-call {
@@ -1370,6 +1532,9 @@ div.left-menu ul li a:hover {
 .inner .pre-t p {
   line-height: 13px;
 }
+.inner .pre-t-inner p {
+  line-height: 13px;
+}
 .pge-col5 {
   background: url(../images/bg-4.jpg);
   background-size: cover!important;
@@ -1377,14 +1542,28 @@ div.left-menu ul li a:hover {
 .pge-col6 {
   background: #0B0E3C!important;
 }
+
+.pge-col-6 {
+  background: #0B0E3C!important;
+}
+.pge-col-in6 {
+  top: 1000px;
+}
 .pge2 .pre-t p {
+  line-height: 17px;
+}
+.pge2 .pre-t-inner p {
   line-height: 17px;
 }
 .pge2 .pre-t {
   background: transparent;
 }
+.pge2 .pre-t-inner {
+  background: transparent;
+}
 .pge-col6-scroll {
   height: 100%;
+  padding-top: 410px;
 }
 .question_answer {
   width: 980px;
@@ -1397,8 +1576,8 @@ div.left-menu ul li a:hover {
   text-align: left;
 }
 .question_answer-main .intro_title {
-  padding-top: 20px;
   margin-bottom: 20px;
+  margin-left: -40%;
 }
 .question_answer-main .question_answer {
   margin-bottom: 50px;
@@ -1409,6 +1588,17 @@ div.left-menu ul li a:hover {
   color: #ffffff;
   display: block;
   padding-top: 25px;
+}
+.answer-form p{
+  font-family: 'SegoeUI-Regular';
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 20px;
+  text-align: left;
+  width: 57%;
+  margin-left: calc(23% + 30px);
+  margin-right: 20%;
+  padding-bottom: 5px;
 }
 
 .pre-t-pge3 input[type="text"] {
