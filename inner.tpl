@@ -160,17 +160,18 @@
                 <div class="intro_title"></div>
             </div>
             <div class="pre-t-inner">
-                <div>
-                    {MAIN}</div>
+                <div>{MAIN}</div>
+                <div>{FAQ}</div>
+                <!--<div class="form-req-inner"><ul>{MAIL}</ul></div>-->
             </div>
         </div>
+        <div class="clearfix"></div>
         <div class="pge-col6" id="section1">
-                <div class="pge-col6-scroll question_answer-main">
-                    {FAQ}
-                </div>
+            <!--<div class="pge-col6-scroll question_answer-main">
+                {FAQ}
+                </div>-->
                 <div class="form-req">
-                    <ul>{MAIL}
-                    </ul>
+                    <ul>{MAIL}</ul>
             </div>
         </div>
 

@@ -1111,9 +1111,9 @@ background: #fff;
   font-family: 'SegoeUI-Light';
   font-size: 30px;
   color: #fff;
-  text-align: center;
+  text-align: left;
   z-index: 3;
-  padding-left: 70px;
+  margin-left: 23%;
 }
 .pre-t {
   position: absolute;
@@ -1217,6 +1217,10 @@ div.left-menu ul li a:hover {
   left: 0;
   width: 100%;
 }
+.form-req-inner {
+  left: 0;
+  width: 100%;
+}
 .pge2 .form-req {
   position: relative!important;
   
@@ -1297,8 +1301,84 @@ div.left-menu ul li a:hover {
 .form-req ul li button:hover {
   background: #838687;
 }
+.form-req-inner ul {
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.form-req-inner ul li {
+  float: left;
+  font-family: 'SegoeUI-Regular';
+  font-size: 20px;
+  color: #F7F8FD;
+}
+.form-req-inner ul li:first-child {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+.form-req-inner ul li input {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-family: 'SegoeUI-Light';
+  font-size: 16px;
+  color: #fff;
+  margin-right: 10px;
+  background: transparent;
+  border: 1px solid;
+  border-color: rgba(255,255,255,0.3);
+  border-top-color: rgba(255, 255, 255, 0.298039);
+  border-right-color: rgba(255, 255, 255, 0.298039);
+  border-bottom-color: rgba(255, 255, 255, 0.298039);
+  border-left-color: rgba(255, 255, 255, 0.298039);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-indent: 10px;
+}
+.form-req-inner ul li input::-webkit-input-placeholder {
+  color: #fff;
+}
+.form-req-inner ul li input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.form-req-inner ul li input::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;
+}
+.form-req-inner ul li input:-ms-input-placeholder {
+  color: #fff;
+}
+.form-req-inner ul li input.req-frominpt-1 {
+  width: 200px;
+}
+.form-req-inner ul li.req-frominpt-2 {
+  width: calc(100% - 773px);
+}
+.form-req-inner ul li button {
+  width: 120px;
+  height: 22px;
+  line-height: 20px;
+  border: 1px solid;
+  border-color: rgba(255,255,255,0.3);
+  border-top-color: rgba(255, 255, 255, 0.298039);
+  border-right-color: rgba(255, 255, 255, 0.298039);
+  border-bottom-color: rgba(255, 255, 255, 0.298039);
+  border-left-color: rgba(255, 255, 255, 0.298039);
+  font-family: 'SegoeUI-Light';
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  background: transparent;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.form-req-inner ul li button:hover {
+  background: #838687;
+}
 .form-faq {
-  margin-left: calc(23% + 30px);
+  margin-left: -2%;
   margin-bottom: 30px;
   margin-top: 20px;
 }
@@ -1538,8 +1618,13 @@ div.left-menu ul li a:hover {
   background: url(../images/bg-4.jpg);
   background-size: cover!important;
 }
+.pge-col5-inner {
+  background: url(../images/bg-4.jpg);
+  background-size: cover!important;
+}
 .pge-col6 {
   background: #0B0E3C!important;
+  padding-top: 700px;
 }
 
 .pge-col-6 {
@@ -1555,7 +1640,7 @@ div.left-menu ul li a:hover {
   line-height: 17px;
 }
 .pge2 .pre-t {
-  background: transparent;
+  background: #0B0E3C;
 }
 .pge2 .pre-t-inner {
   background: transparent;
@@ -1565,12 +1650,14 @@ div.left-menu ul li a:hover {
   padding-top: 410px;
 }
 .question_answer {
-  text-align: left;
+  width: 980px;
+  margin: 0 auto;
+  /*text-align: left;
   width: 57%;
   margin: 5px 0;
   margin-left: 23%;
   margin-right: 20%;
-  padding-bottom: 5px;
+  padding-bottom: 5px;*/
 }
 .question_answer p {
   font-family: 'SegoeUI-Light';
@@ -1599,7 +1686,7 @@ div.left-menu ul li a:hover {
   line-height: 20px;
   text-align: left;
   width: 57%;
-  margin-left: calc(23% + 30px);
+  margin-left: 23%;
   margin-right: 20%;
   padding-bottom: 5px;
 }
