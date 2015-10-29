@@ -1484,6 +1484,9 @@ div.left-menu ul li a:hover {
   cursor: pointer;
 }
 
+.form-faq ul li button:hover {
+  background: #838687;
+}
 
 .pre-t.pre-t-pge3 {
   bottom: 52px;
