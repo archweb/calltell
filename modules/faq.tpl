@@ -1,4 +1,4 @@
-<div class="intro_title">Вопрос — ответ</div>			
+<div class="intro_title_faq">Вопрос — ответ</div>
 {FAQ}
 
 				
