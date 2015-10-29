@@ -61,40 +61,46 @@
     <script type="text/javascript" src="/templates/default/js/jquery.fullPage.js"></script>
     <script type="text/javascript" src="/templates/default/js/jquery-ui-1.10.3.custom.min.js"></script>
     <script type="text/javascript">
-        $(".price-slide").slider({
-            animate: true, // Анимация ползунка
-            range: "min", // Фон пути ползунка, если это свойство убрать, то синей линии не будет.
-            value: 8500, // Значение по умолчанию.
-            min: 8500, // Минимальная сумма.
-            max: 20000, // Максимальная сумма.
-            step: 100, // Шаг диапазона.
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                anchors: ['холодные звонки', 'горячая линия', 'базы компаний'],
+                sectionsColor: ['#fff', '#fff', '#fff'],
+                scrollingSpeed: 1200,
+                scrollBar: true
+            });
+            $( ".price-slide" ).slider({
+                animate: true, // Анимация ползунка
+                range: "min", // Фон пути ползунка, если это свойство убрать, то синей линии не будет.
+                value: 8500, // Значение по умолчанию.
+                min: 8500, // Минимальная сумма.
+                max: 20000, // Максимальная сумма.
+                step: 100, // Шаг диапазона.
 
-            // Вывод диапазона в поле input
-            change: function (event, ui) {
-                $('#price-bigun').attr('value', ui.value + ' P');
-            }
+                // Вывод диапазона в поле input
+                change: function(event, ui) {
+                    $('#price-bigun').attr('value', ui.value+' P');
+                }
 
+            });
+            $( ".company-slide" ).slider({
+                animate: true, // Анимация ползунка
+                range: "min", // Фон пути ползунка, если это свойство убрать, то синей линии не будет.
+                value: 300, // Значение по умолчанию.
+                min: 300, // Минимальная сумма.
+                max: 1500, // Максимальная сумма.
+                step: 100, // Шаг диапазона.
+
+                // Вывод диапазона в поле input
+                change: function(event, ui) {
+                    $('#company-bigun').attr('value', ui.value);
+                }
+
+            });
         });
-        $(".company-slide").slider({
-            animate: true, // Анимация ползунка
-            range: "min", // Фон пути ползунка, если это свойство убрать, то синей линии не будет.
-            value: 300, // Значение по умолчанию.
-            min: 300, // Минимальная сумма.
-            max: 1500, // Максимальная сумма.
-            step: 100, // Шаг диапазона.
-
-            // Вывод диапазона в поле input
-            change: function (event, ui) {
-                $('#company-bigun').attr('value', ui.value);
-            }
-
-        });
-        })
-        ;
     </script>
     <script>
-        $(document).ready(function () {
-            $(document).on('click', function (e) {
+        $(document).ready(function(){
+            $(document).on('click', function(e){
                 // e.preventDefault();
                 me = $(e.target);
                 if (me.is('.paymethod label') || me.parent().is('.paymethod label')) {

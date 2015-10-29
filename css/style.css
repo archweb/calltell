@@ -1113,11 +1113,11 @@ background: #fff;
 }
 .intro_title {
   font-family: 'SegoeUI-Light';
-  font-size: 30px;
+  font-size: 60px;
   color: #fff;
-  text-align: left;
+  text-align: center;
   z-index: 3;
-  margin-left: 25%;
+  padding-left: 70px;
 }
 .intro_title_faq {
   font-family: 'SegoeUI-Light';
@@ -1618,6 +1618,9 @@ div.left-menu ul li a:hover {
   font-family: 'SegoeUI-Regular';
   font-size: 15px;
   color: #000;
+  margin-left: 0;
+  width: 340px;
+  text-align: center;
 }
 
 /*----------------- inner -----------------*/
@@ -1692,6 +1695,9 @@ div.left-menu ul li a:hover {
   color: #ffffff;
   display: block;
   padding-top: 25px;
+}
+.answer-form {
+  margin-top: 20px;
 }
 .answer-form p{
   font-family: 'SegoeUI-Regular';

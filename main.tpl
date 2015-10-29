@@ -166,10 +166,16 @@
 					<div class="intro_title">Ваше личное спокойствие</div>
 				</div>
 				<div class="pre-t">
-						<div>
-							<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
-							<p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeatendus. </p>
-						</div>
+				<div>
+<p>Вся концепция колл-центра CallTell легко укладывается в определение двумя словами: прозрачность и лаконичность.</p>
+<p>Вместо того, чтобы заполнять витрины отднотипным продуктом в пестрой упаковке, мы помогаем своему клиенту сделать простой и безошибочный выбор еще на этапе знакомства с ассортиментом наших услуг.
+<p>Мы работаем с любыми объемами входящих звонков любой тематики и сложности:</p>
+<ul>
+ <li>Прием и обработка заказов</li>
+ <li>Горячая линия с бесплатным номером 8-800</li>
+ <li>Многоканальный номер с секретарем</li>
+</ul>
+                 </div>
 					</div>
 			</div>
 			<div class="section pge-col3" id="section2">
@@ -178,9 +184,16 @@
 				</div>
 				<div class="pre-t pre-t-pge3">
 						<div>
-							<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
-							<p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeatendus. </p>
-						</div>
+<p>Колл-центр CallTell это не только надёжная система телефонного обслуживания, но еще и собственная оригинальная база компаний, кропотливо собранная нами по уникальному алгоритму и постоянно поддерживаемая в актуальном состоянии.</p>
+
+<p>На основе этой базы вы формируете собственную персональную выгрузку, которая удовлетворит любые поставленные вами задачи. Наши базы имеют удобный рубрикатор и содержат все необходимые сведения о компаниях России, необходимые для эффективного маркетинга: название, адрес, телефон и email.</p>
+
+<p>Всегда только актуальные данные</p>
+
+<p>Гибкая и прозрачная система формирования цены</p>
+
+<p>Интуитивно понятный интерфейс конфигуратора</p>
+</div>
 				</div>
 				<div class="form-req">
 					<ul>{MAIL}
