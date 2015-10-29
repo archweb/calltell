@@ -155,12 +155,12 @@
 				<div class="intro">
 					<div class="intro_title"></div>
 				</div>
-					<div class="pre-t">
+					<div class="pre-t-inner">
 						<div>
 {MAIN}</div>
 					</div>
 			</div>
-			<div class="pge-col6" id="section1">
+			<div class="pge-col-6">
 				<div class="pge-col6-scroll question_answer-main">
 					{FAQ}
 					</div>
@@ -174,7 +174,7 @@
 
 		</div>
 
-		<div class="menu-slider">
+		<div class="menu-slider-inner">
 			<ul>
 				<li class="item-01 item-01-show"><a href="#">Холодные звонки</a></li>
 				<li class="item-02 item-02-show"><a href="#">Входящие звонки</a></li>
