@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f3f24c6c-9a6e-45c3-87a5-5dfa9fd18819" name="calltel" url="http://46.166.172.102">
+        <fileTransfer host="46.166.172.102" port="21" password="dff8dfd8dfdcdfe4df92dffedfd9dfe7" username="verstka">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

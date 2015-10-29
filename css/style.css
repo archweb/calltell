@@ -6,7 +6,6 @@
   outline:none;
   font-family:Arial, Helvetica, sans-serif;
 }
-
 @font-face {
     font-family: "PTSans-Regular";
     src: url("../fonts/PTSansRegular.eot");
@@ -1566,8 +1565,12 @@ div.left-menu ul li a:hover {
   padding-top: 410px;
 }
 .question_answer {
-  width: 980px;
-  margin: 0 auto;
+  text-align: left;
+  width: 57%;
+  margin: 5px 0;
+  margin-left: 23%;
+  margin-right: 20%;
+  padding-bottom: 5px;
 }
 .question_answer p {
   font-family: 'SegoeUI-Light';
