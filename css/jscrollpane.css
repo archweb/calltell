@@ -1,0 +1,260 @@
+.scroll-panel
+{	
+	width: 100%!important;
+	height: 100%;
+	overflow: auto;
+}
+.scroll-panel .jspContainer
+{
+	position: relative;
+}
+.scroll-panel .jspPane
+{
+	position: relative;
+	width: 100%!important;
+}
+.scroll-panel .jspVerticalBar
+{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width: 8px;
+	height: 100%;
+}
+.scroll-panel .jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.scroll-panel .jspCap
+{
+	display: none;
+}
+.scroll-panel .jspHorizontalBar .jspCap
+{
+	float: left;
+}
+.scroll-panel .jspTrack
+{	
+	background: transparent!important;
+	position: relative;
+}
+.scroll-panel .jspDrag {
+	background: #B7C0C6;
+	position: relative;
+	width: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.scroll-panel .jspHorizontalBar .jspTrack,
+.scroll-panel .jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+.scroll-panel .jspArrow
+{
+	text-indent: -20000px;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.scroll-panel .jspArrow.jspDisabled
+{
+	cursor: default;
+}
+.scroll-panel .jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+.scroll-panel .jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+.scroll-panel .jspCorner
+{
+	background: #eeeef4;
+	float: left;
+}
+
+.scroll-panel2
+{	
+	width: 100%!important;
+	height: 100%;
+	overflow: auto;
+}
+.scroll-panel2 .jspContainer
+{
+	position: relative;
+}
+.scroll-panel2 .jspPane
+{
+	position: relative;
+	width: 100%!important;
+}
+.scroll-panel2 .jspVerticalBar
+{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width: 8px;
+	height: 100%;
+}
+.scroll-panel2 .jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.scroll-panel2 .jspCap
+{
+	display: none;
+}
+.scroll-panel2 .jspHorizontalBar .jspCap
+{
+	float: left;
+}
+.scroll-panel2 .jspTrack
+{	
+	background: transparent!important;
+	position: relative;
+}
+.scroll-panel2 .jspDrag {
+	background: #B7C0C6;
+	position: relative;
+	width: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.scroll-panel2 .jspHorizontalBar .jspTrack,
+.scroll-panel2 .jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+.scroll-panel2 .jspArrow
+{
+	text-indent: -20000px;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.scroll-panel2 .jspArrow.jspDisabled
+{
+	cursor: default;
+}
+.scroll-panel2 .jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+.scroll-panel2 .jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+.scroll-panel2 .jspCorner
+{
+	background: #eeeef4;
+	float: left;
+}
+
+.scroll-panel3
+{	
+	width: 100%!important;
+	height: 100%;
+	overflow: auto;
+}
+.scroll-panel3 .jspContainer
+{
+	position: relative;
+}
+.scroll-panel3 .jspPane
+{
+	position: relative;
+	width: 100%!important;
+}
+.scroll-panel3 .jspVerticalBar
+{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width: 8px;
+	height: 100%;
+}
+.scroll-panel3 .jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.scroll-panel3 .jspCap
+{
+	display: none;
+}
+.scroll-panel3 .jspHorizontalBar .jspCap
+{
+	float: left;
+}
+.scroll-panel3 .jspTrack
+{	
+	background: transparent!important;
+	position: relative;
+}
+.scroll-panel3 .jspDrag {
+	background: #B7C0C6;
+	position: relative;
+	width: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.scroll-panel3 .jspHorizontalBar .jspTrack,
+.scroll-panel3 .jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+.scroll-panel3 .jspArrow
+{
+	text-indent: -20000px;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.scroll-panel3 .jspArrow.jspDisabled
+{
+	cursor: default;
+}
+.scroll-panel3 .jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+.scroll-panel3 .jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+.scroll-panel3 .jspCorner
+{
+	background: #eeeef4;
+	float: left;
+}
