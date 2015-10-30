@@ -17,44 +17,6 @@
 			 var console = { log: function() {} };
 		</script>
 	<![endif]-->
-<style>
-.stub {
-  position: fixed;
-  z-index: 1001;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.45);
-}
-.btn-submit {vertical-align:top;}
-
-.stub-send {
-  position: fixed;
-  z-index: 1100;
-  top: 50%;
-  left: 50%;
-  width: 340px;
-  padding: 30px;
-  background: #f7f7f7;
-  color: #292828;
-  text-align: center;
-  border-radius: 3px;
-  margin: -100px 0 0 -170px;
-}
-
-
-.stub-cross {
-  width: 30px;
-  height: 30px;
-  background: url(templates/default/images/bg-cross.png) 50% 50% no-repeat;
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  opacity: .8;
-}
-</style>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="/templates/default/js/jquery.fullPage.js"></script>

@@ -5,14 +5,14 @@ $(document).ready(function() {
   var bodyh = $('body').height();
   $('.pge-col5').css({'height': bodyh+'px'});
 
-  $('.click-back-call').click(function(){
-    $('.wrapper').addClass('content-blur-active');
-    $('.form-back-call').fadeIn('slow');
-  });
-  $('.whole-site__close').click(function(){
-    $('.form-back-call').hide(0);
-    $('.wrapper').removeClass('content-blur-active');
-  });
+    $('.click-back-call').click(function(){
+        $('.wrapper').addClass('content-blur-active');
+        $('.form-back-call').fadeIn('slow');
+    });
+    $('.whole-site__close').click(function(){
+        $('.form-back-call').hide(0);
+        $('.wrapper').removeClass('content-blur-active');
+    });
 
   $('.item-03-show').mouseover(function() {
     $('.window-main.item-03-show').removeClass('column-popup_stage_close');
